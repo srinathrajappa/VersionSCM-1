@@ -27,6 +27,7 @@
                         <goals><goal>perform</goal></goals>
                         <configuration>
                             <pomFileName>pom.xml</pomFileName>
+                            <releaseProfiles>release</releaseProfiles>
                         </configuration>
                     </execution>
                 </executions>

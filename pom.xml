@@ -5,7 +5,9 @@
     <groupId>VersionSCM-1</groupId>
     <artifactId>VersionSCM-1</artifactId>
     <version>1.0</version>
-
+    <properties>
+        <project.scm.id>myserver</project.scm.id>
+    </properties>
     <scm>
         <connection>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</connection>
         <url>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</url>

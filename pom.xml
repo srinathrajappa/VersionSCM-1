@@ -26,6 +26,7 @@
                         <id>default</id>
                         <goals><goal>perform</goal></goals>
                         <configuration>
+                            <tagBase>https://github.com/srinathrajappa/VersionSCM-1/releases/tag</tagBase>
                             <pomFileName>pom.xml</pomFileName>
                             <releaseProfiles>release</releaseProfiles>
                         </configuration>

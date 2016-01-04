@@ -10,8 +10,8 @@
     </properties>
     <scm>
         <connection>scm:git:https://github.com/srinathrajappa/VersionSCM-1.git</connection>
-        <url>cm:git:https://github.com/srinathrajappa/VersionSCM-1.git</url>
-        <developerConnection>cm:git:https://github.com/srinathrajappa/VersionSCM-1.git</developerConnection>
+        <url>scm:git:https://github.com/srinathrajappa/VersionSCM-1.git</url>
+        <developerConnection>scm:git:https://github.com/srinathrajappa/VersionSCM-1.git</developerConnection>
       <tag>VersionSCM-1-1.0</tag>
   </scm>
 

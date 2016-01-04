@@ -9,8 +9,8 @@
         <project.scm.id>myserver</project.scm.id>
     </properties>
     <scm>
-        <connection>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</connection>
-        <url>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</url>
+        <connection>scm:git:https://github.com/srinathrajappa/VersionSCM-1.git</connection>
+        <url>cm:git:https://github.com/srinathrajappa/VersionSCM-1.git</url>
         <developerConnection>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</developerConnection>
       <tag>VersionSCM-1-1.0</tag>
   </scm>

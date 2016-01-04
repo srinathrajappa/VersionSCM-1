@@ -7,9 +7,9 @@
     <version>1.0</version>
 
     <scm>
-        <connection>scm:git:git@github.com:srinathrajappa/SeleniumHeadlesstest.git</connection>
-        <url>scm:git:git@github.com:srinathrajappa/SeleniumHeadlesstest.git</url>
-        <developerConnection>scm:git:git@github.com:srinathrajappa/SeleniumHeadlesstest.git</developerConnection>
+        <connection>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</connection>
+        <url>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</url>
+        <developerConnection>scm:git:git@github.com:srinathrajappa/VersionSCM-1.git</developerConnection>
       <tag>VersionSCM-1-1.0</tag>
   </scm>
 

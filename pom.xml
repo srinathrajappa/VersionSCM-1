@@ -41,10 +41,31 @@
                     <username>srinathrajappa</username>
                     <password>11bdec7</password>
                     <basedir>D:\Source-Code\NSIS\VersionSCM-1</basedir>
-                    <tag>V1-1000</tag>
+                    <tag>V1-1000-10</tag>
                     <timestampFormat>yyyyMMddHHmmss</timestampFormat>
                     <tagBase>https://github.com/srinathrajappa/VersionSCM-1/releases/tag</tagBase>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.lukegb.mojo</groupId>
+                <artifactId>gitdescribe-maven-plugin</artifactId>
+                <version>3.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>gitdescribe</goal>
+                        </goals>
+                        <id>git-describe</id>
+                        <phase>initialize</phase>
+                        <configuration>
+                            <extraArguments>
+                                <param>--tags</param>
+                            </extraArguments>
+                            <!-- configuration properties go here. -->
+                            <setReactorProjectsProperties>true</setReactorProjectsProperties>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

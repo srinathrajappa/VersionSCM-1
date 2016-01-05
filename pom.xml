@@ -33,6 +33,19 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.9.4</version>
+                <configuration>
+                    <username>srinathrajappa</username>
+                    <password>11bdec7</password>
+                    <basedir>D:\Source-Code\NSIS\VersionSCM-1</basedir>
+                    <tag>V1-1000</tag>
+                    <timestampFormat>yyyyMMddHHmmss</timestampFormat>
+                    <tagBase>https://github.com/srinathrajappa/VersionSCM-1/releases/tag</tagBase>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
